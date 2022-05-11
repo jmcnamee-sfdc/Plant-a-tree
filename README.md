@@ -1,18 +1,9 @@
-# Salesforce DX Project: Next Steps
+# Plant A Tree!
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This is a simple package that enables an org to reward staff who create an opportunity over a certain value (default 20k, configurable) by planting a tree in their name
 
-## How Do You Plan to Deploy Your Changes?
+## Cool - what next? 
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+By default, we use a development API for https://digitalhumani.com/ (RaaS - (Reforestation as a Service)) which will not plant any trees.
 
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Set up your own corporate account, and configure the details via setup and you can then use this account to see details of tree requests planted. Each tree planted costs $1 at time of writing
