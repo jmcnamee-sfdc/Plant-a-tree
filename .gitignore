@@ -38,3 +38,7 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+
+#specific files
+hello.apex
+account.sql
