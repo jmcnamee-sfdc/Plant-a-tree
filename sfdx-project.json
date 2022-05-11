@@ -1,0 +1,19 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Plant a Tree",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "name": "Plant A Tree",
+    "namespace": "PlantATree",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "54.0",
+    "packageAliases": {
+        "Plant a Tree": "0Ho8b000000blJsCAI",
+        "Plant a Tree@0.1.0-1": "04t8b000001ec6iAAA"
+    }
+}

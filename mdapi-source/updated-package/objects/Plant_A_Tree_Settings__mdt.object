@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Plant A Tree Settings</label>
+    <pluralLabel>Plant A Tree Settings</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Enterprise_ID__c</fullName>
+        <description>When you set up your Production Reforestation as a Service (RaaS) account, you&apos;ll be issued with an EnterpriseID - enter that here - https://digitalhumani.com/</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Enterprise ID</label>
+        <length>10</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Minimum_Amount__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Opportunity Minimum Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plant_a_tree_API_url__c</fullName>
+        <description>The url for the Reforestation as a Service (RaaS) project. 
+
+The free sandbox API can be used for testing, or the production URL can be used to plant actual trees (cost implications)</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Plant a tree API url</label>
+        <required>true</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Project_ID__c</fullName>
+        <description>Similar to the Enterprise ID, this will be provided when you create your https://digitalhumani.com/ account</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Project ID</label>
+        <length>10</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X_Api_Key__c</fullName>
+        <description>API Key as provided on registration for RaaS service</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>X-Api-Key</label>
+        <length>100</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
