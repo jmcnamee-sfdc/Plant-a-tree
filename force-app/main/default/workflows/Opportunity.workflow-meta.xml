@@ -10,4 +10,4 @@
         <senderType>CurrentUser</senderType>
         <template>Plant_A_Tree/Plant_A_Tree_Email_Template</template>
     </alerts>
-</Workflow>
+</Workflow> 

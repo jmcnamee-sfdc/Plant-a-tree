@@ -10,7 +10,7 @@
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
-            <value>
+            <value> 
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
