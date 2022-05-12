@@ -8,6 +8,13 @@
         <members>*</members>
         <name>ApexComponent</name>
     </types>
+      <types>
+        <members>*</members>
+        <members>Plant_A_Tree</members>
+        <members>Plant_A_Tree/Plant_A_Tree_Email_Template</members>
+        <members>Plant_A_Tree/Plant_A_Tree_Installation</members>
+        <name>EmailTemplate</name>
+    </types>
     <types>
         <members>*</members>
         <name>ApexPage</name>

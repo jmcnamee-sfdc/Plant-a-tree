@@ -5,7 +5,8 @@
             "default": true,
             "package": "Plant a Tree",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.3.0.NEXT",
+            "ancestorVersion": "HIGHEST"
         }
     ],
     "name": "Plant A Tree",
@@ -14,6 +15,11 @@
     "sourceApiVersion": "54.0",
     "packageAliases": {
         "Plant a Tree": "0Ho8b000000blJsCAI",
-        "Plant a Tree@0.1.0-1": "04t8b000001ec6iAAA"
+        "Plant a Tree@0.1.0-1": "04t8b000001ec6iAAA",
+        "Plant a Tree@0.1.0-2": "04t8b000001ecD1AAI",
+        "Plant a Tree@0.1.0-3": "04t8b000001ecDQAAY",
+        "Plant a Tree@0.1.0-4": "04t8b000001ecDaAAI",
+        "Plant a Tree@0.2.0-1": "04t8b000001ecDpAAI",
+        "Plant a Tree@0.3.0-1": "04t8b000001ecDuAAI"
     }
 }

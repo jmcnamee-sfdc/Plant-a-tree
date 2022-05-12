@@ -1,5 +1,5 @@
 @isTest
-private class PlantATreeManagerTests
+public class PlantATreeManagerTests
 {
 
 	@isTest static void testPlantATreeManagerPlural()

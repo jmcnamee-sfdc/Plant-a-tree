@@ -1,6 +1,7 @@
-global class PlantATree_PostInstall implements InstallHandler
+global class PlantATree_PostInstall //implements InstallHandler
 {
     //email template: Plant A Tree Installation 
+    /*
     global void onInstall(InstallContext context)
     {
     System.debug('PlantATree_PostInstallv');
@@ -43,5 +44,7 @@ global class PlantATree_PostInstall implements InstallHandler
             //Survey__c obj = new Survey__c(name='Sample Survey during Push');
             //insert obj;
         }
+        
     }
+    */
 }
