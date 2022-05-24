@@ -5,7 +5,7 @@
             "default": true,
             "package": "Plant a Tree2",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.0",
+            "versionNumber": "0.1.0.NEXT",
             "postInstallUrl": "https://salesforce.quip.com/haDuAHLWayua#UCYABAjuQYh",
             "releaseNotesUrl": "https://salesforce.quip.com/WGYGAT6AQB3z#MFFABAlEV30"
         }
@@ -16,6 +16,7 @@
     "sourceApiVersion": "54.0",
     "packageAliases": {
         "Plant a Tree2": "0Ho8b000000blLoCAI",
-        "Plant a Tree2@0.1.0-0": "04t8b000001ecR0AAI"
+        "Plant a Tree2@0.1.0-0": "04t8b000001ecR0AAI",
+        "Plant a Tree2@0.1.0-1": "04t8b000001ecR5AAI"
     }
 }
