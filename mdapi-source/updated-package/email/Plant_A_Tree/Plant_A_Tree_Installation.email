@@ -1,0 +1,20 @@
+Thank you for installing the Plant A Tree app!
+
+Please follow the below instructions to get started:
+
+1. Sign up for a Digital Humani account at: https://my.digitalhumani.com/register
+
+2. Setup Custom Metadata Types for the flow
+- Setup > Custom Code > *Custom Metadata Types*
+- Click on *Plant A Tree Settings*, then click on *Manage Plant A Tree Settings* and click *New*
+- Label: Default Settings
+- Plant A Tree Settings Name: Default_Settings
+- Plant a tree API url:
+* Production: https://api.digitalhumani.com/
+* Sandbox: https://api.sandbox.digitalhumani.com/
+- Enterprise ID: This can be found on your digital humani account under the Developer tab
+- Project ID: This is the ID of the reforestation project you wish to support. A full list of projects and IDs can be found at https://docs.digitalhumani.com/#apiprojects_list
+- Opportunity Minimum Amount: The threshold amount that you want to trigger this flow
+- X-Api-Key: This can be found on your digital humani account under the Developer tab
+
+For more information around the setup please review the installation guide: https://salesforce.quip.com/jIviAQh16ghh

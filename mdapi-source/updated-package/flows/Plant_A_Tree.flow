@@ -36,12 +36,6 @@
             </value>
         </inputParameters>
         <inputParameters>
-            <name>sendRichBody</name>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
             <name>emailSubject</name>
             <value>
                 <stringValue>Your tree planting request has been received!</stringValue>
@@ -206,12 +200,12 @@
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <description>Email_Body_Post_Send</description>
         <name>Email_Body_Post_Send</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p&gt;&lt;span style=&quot;color: rgb(32, 33, 36); font-family: Roboto, arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;Congratulations, your Plant-A-Tree request has been received! It will be processed shortly.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(32, 33, 36); font-family: Roboto, arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;{!Plant_A_Tree_0.Message}&lt;/span&gt;&lt;/p&gt;</text>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, arial, sans-serif; color: rgb(32, 33, 36);&quot;&gt;Congratulations, your Plant-A-Tree request has been received! It will be processed shortly.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, arial, sans-serif; color: rgb(32, 33, 36);&quot;&gt;More details from the Tree Planting Team Below&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Roboto, arial, sans-serif; color: rgb(32, 33, 36);&quot;&gt;{!Plant_A_Tree_0.Message}&lt;/span&gt;&lt;/p&gt;</text>
     </textTemplates>
     <variables>
         <name>Threshold</name>

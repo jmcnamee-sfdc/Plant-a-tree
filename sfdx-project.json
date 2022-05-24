@@ -3,23 +3,19 @@
         {
             "path": "force-app",
             "default": true,
-            "package": "Plant a Tree",
+            "package": "Plant a Tree2",
             "versionName": "ver 0.1",
-            "versionNumber": "0.3.0.NEXT",
-            "ancestorVersion": "HIGHEST"
+            "versionNumber": "0.1.0.0",
+            "postInstallUrl": "https://salesforce.quip.com/haDuAHLWayua#UCYABAjuQYh",
+            "releaseNotesUrl": "https://salesforce.quip.com/WGYGAT6AQB3z#MFFABAlEV30"
         }
     ],
     "name": "Plant A Tree",
-    "namespace": "PlantATree",
+    "namespace": "PlantATree2",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "54.0",
     "packageAliases": {
-        "Plant a Tree": "0Ho8b000000blJsCAI",
-        "Plant a Tree@0.1.0-1": "04t8b000001ec6iAAA",
-        "Plant a Tree@0.1.0-2": "04t8b000001ecD1AAI",
-        "Plant a Tree@0.1.0-3": "04t8b000001ecDQAAY",
-        "Plant a Tree@0.1.0-4": "04t8b000001ecDaAAI",
-        "Plant a Tree@0.2.0-1": "04t8b000001ecDpAAI",
-        "Plant a Tree@0.3.0-1": "04t8b000001ecDuAAI"
+        "Plant a Tree2": "0Ho8b000000blLoCAI",
+        "Plant a Tree2@0.1.0-0": "04t8b000001ecR0AAI"
     }
 }
