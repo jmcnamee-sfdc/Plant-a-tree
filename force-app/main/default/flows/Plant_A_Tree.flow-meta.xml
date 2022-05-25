@@ -206,7 +206,7 @@
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <description>Email_Body_Post_Send</description>
         <name>Email_Body_Post_Send</name>
